@@ -16,7 +16,9 @@ a:visited{
 }
 button{
     outline: 0;
+    cursor: pointer;
 }
+
 
 
 /*CSS Rules start.*/
@@ -198,7 +200,7 @@ button{
     padding-top: 2em;
     padding-bottom: 2em;
     flex: 1;
-    border-radius: 1em;
+    border-radius: 0.7em;
 
  }
 
@@ -207,11 +209,21 @@ button{
         font-weight: bold;
     }
 
-.signup-button{
+.signup2-button{
     display: flex;
     align-items: center;
 }
-.signup-button > button{
+.signup2-button > button{
     border-color: #fff;
-    border-width: 3px;
+    border-width: 2px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #fff;
+    padding-top: 2em;
+    padding-bottom: 2em;
+
 }
