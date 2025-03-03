@@ -14,12 +14,14 @@ a:visited{
     text-decoration: none;
     color: #fff;
 }
+button{
+    outline: 0;
+}
 
 
 /*CSS Rules start.*/
 .header-container{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: baseline;
     /* outline: 1px solid red; */
@@ -35,9 +37,9 @@ a:visited{
     }
     .header-nav-container{
         display: flex;
-        justify-content: center;
+        justify-content:space-between;
         /* outline: 1px solid rgb(0, 13, 255); */
-        flex: 1.5;
+        flex: 1;
         
     }
         .header-nav{
@@ -65,6 +67,7 @@ a:visited{
         display: flex;
         flex-direction: column;
         flex: 1;
+        flex-wrap: wrap;
         color: #F9FAF8;
         /* outline: 2px solid rgb(212, 255, 0); */
     }
@@ -92,13 +95,123 @@ a:visited{
                 background-color: #3882f6;
                 color: #fff;
                 font-weight: 500;
-                border: 1px solid #fff;
+                border: 1px solid #3882f6;
                 border-radius: 3px;
-                outline: 1px solid black;
             }
     .placeholder-image{
         display: flex;
         /* justify-content: center; */
         /* outline: 2px solid rgb(0, 140, 255); */
         flex: 1;
+        flex-wrap: wrap;
     }
+
+
+    .main-container{
+        display:flex;
+        flex-direction: column;
+        flex: 1;
+        padding-left: 11em;
+        padding-right: 11em;
+        padding-top: 5em;
+        padding-bottom: 5em;
+        /* outline: 1px solid red; */
+
+    }
+        .info-heading{
+            color: #1F2937;
+            font-size: 1.5em;
+            font-weight: 900;
+            display: flex;
+            justify-content: center;
+            /* outline: 1px solid blue; */
+        }
+        .image-grid{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding-top: 4em;
+            /* outline: 1px solid rgb(0, 255, 17); */
+        }
+        .image{
+            display: flex;
+            flex-direction: column;
+        }
+         .image > img{
+            width:200px;
+            height: 100px;
+            border: 3px solid #1d76f5;
+            border-radius: 7px;
+         }
+         figcaption{
+            max-width: 200px;
+            font-size: 0.8em;
+         }
+
+
+
+.quote-container{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        flex: 1;
+        padding-left: 11em;
+        padding-right: 11em;
+        padding-top: 5em;
+        padding-bottom: 5em;
+        background-color: #E5E7EB;
+}
+    .quote-body{
+        /* flex-wrap: wrap; */
+        color: #1f2937;   
+        font-style: italic;
+        font-size: 2em;     
+    }
+    .quote-author{
+        display: flex;
+        align-self: flex-end;
+        color: #1f2937;   
+        font-style: italic;
+        font-size: 1em;
+        padding-top: 1em;
+
+    }
+
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+    padding-left: 11em;
+    padding-right: 11em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}    
+ .container-wrapper{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1d76f5;
+    color: #fff;
+    display: flex;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    flex: 1;
+    border-radius: 1em;
+
+ }
+
+    .main-text{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+.signup-button{
+    display: flex;
+    align-items: center;
+}
+.signup-button > button{
+    border-color: #fff;
+    border-width: 3px;
+}
