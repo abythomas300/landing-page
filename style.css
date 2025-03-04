@@ -84,13 +84,14 @@ button{
         .sub-hero-text{
             display: flex;
             font-size: 1em;
-            flex-wrap: wrap;
+            flex-wrap: wrap;padding-top: 1.5em;
             /* outline: 1px solid black; */
         }
         .button-container{
             display: flex;
             margin-top: 1em;
             flex: 1;
+            flex-wrap: wrap;padding-top: 1.5em;
         }
             button{
                 width: 7em;
@@ -105,8 +106,12 @@ button{
         display: flex;
         /* justify-content: center; */
         /* outline: 2px solid rgb(0, 140, 255); */
+        
         flex: 1;
         flex-wrap: wrap;
+    }
+    .placeholder-image > img{
+        border-radius: 1em;
     }
 
 
