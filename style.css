@@ -50,7 +50,13 @@ button{
             flex: 1;
             justify-content: space-around;
             font-size: 0.9em;
-            
+        }
+        .header-nav a{
+            opacity: 0.8;
+        }
+        .header-nav a:hover{
+            opacity: 2;
+            font-weight: 400;
         }
 
 
