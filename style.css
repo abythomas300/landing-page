@@ -1,4 +1,9 @@
 /*Resets*/
+html{
+    scroll-behavior: smooth;
+    scrollbar-color: #1d76f5;
+}
+
 *{
     margin: 0;
     padding: 0;
