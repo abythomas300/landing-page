@@ -73,10 +73,11 @@ button{
     padding-right: 12.5em;
     padding-top: 5em;
     padding-bottom: 5em;
-    border-bottom-left-radius: 10em;
+    border-bottom-left-radius: 15em;
+    border-bottom-right-radius: 15em;
+    box-shadow: 1px 36px 24px #989898;
     flex: 1;
-    /* outline: 2px solid red; */
-
+    
 }
     .hero-text{
         display: flex;
